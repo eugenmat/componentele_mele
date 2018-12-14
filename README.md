@@ -1,0 +1,1 @@
+# componentele_mele
