@@ -1,0 +1,255 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  display: block;
+}
+
+.hero-text {
+    margin: 0 auto;
+    padding: .625rem;
+    color: hsla(0,0%,100%,.9);
+    background: hsla(100,0%,0%,.5);
+}
+
+.cover {
+  background:  url("https://orange.codeberryschool.com/content/images/project-assets/wedding-landing-cover.jpg") no-repeat center;
+  background-size: cover;
+  height: 100vh;
+  width: 100vw;
+  color: hsla(0,0%,100%,.7);
+  font-family: 'libre+baskerville', serif;
+  text-align: center;
+  display: table;
+}
+
+.wrapper {
+  display: table-cell;
+  vertical-align: middle;
+  padding: 0 .625rem;
+}
+
+.tagline h2 {
+  font-size: 1.125rem;
+  line-height: 1.5rem;
+  letter-spacing: .1rem;
+  margin-bottom: .5rem;
+  text-transform: uppercase;
+  font-family: 'libre baskervile';
+}
+
+.tagline h3 {
+  font-size: 1.125rem;
+  line-height: 1.5rem;
+}
+
+.headline {
+  font-size: 3rem;
+  margin: 2rem 0;
+  font-family: Great Vibes;
+  color: #d2ba87;
+}
+
+@media screen and (min-width: 1224px) {
+
+ .headline {
+    font-size: 6rem;
+    font-family: 'Great Vibes';
+  }
+
+}
+
+.tagline {
+  font-size: 1.25rem;
+  line-height: 1.5rem;
+}
+
+/* ==== ARTICLE STYLES ==== */
+
+section {
+  padding: 0 .625rem;
+}
+
+@media screen and (min-width: 1224px) {
+
+  section {
+    width: 50%;
+    max-width: 600px;
+    margin: 2rem auto;
+  }
+
+}
+
+.locations, .program, .gifts, .faq, .contact {
+    display: block;
+    width: 95%;
+    margin: 1.5rem auto;
+    padding: .5rem 1rem;
+    text-align: center;
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+user agent stylesheet
+article, aside, footer, header, hgroup, main, nav, section {
+    display: block;
+}
+
+.blurb::after {
+    content: "";
+    display: block;
+    height: .1875rem;
+    width: 25vw;
+    margin: 1.5rem auto;
+    background-color: #444349;
+}
+
+section h1 {
+  font-family: 'Great Vibes', cursive;
+  font-size: 2rem;
+  line-height: 1.25;
+  margin: 2rem 0;
+}
+
+section p {
+  font-family: 'muli', sans-serif;
+  font-size: 1rem;
+  line-height: 1.5;
+  margin: 1rem 0;
+}
+
+section h2 {
+  background: hsla(100,0%,0%,.6);
+  font-family: 'great vibes', cursive;
+  font-size: 3em;
+  line-height: 1.5;
+  margin: 1rem 0;
+}
+
+.package {
+  float: right;
+  width: 29.33%;
+  margin: 1%;
+  padding: 1%;
+  background-color: #eee;
+  text-align: center;
+}
+
+.content {
+  padding: 10px;
+  background-color: #888;
+  clear: both;
+  margin-top: 75px;
+}
+
+.packages::after {
+  content: "";
+  clear: both;
+  display: block;
+}
+
+.faq {
+    background: hsla(100,0%,0%,.6);
+    color: #d2ba87;
+    width: 100%;
+    text-align: center;
+}
+
+h3 {
+    font-size: 1.5rem;
+}
+h1, h2, h3, ul, ol, p, img {
+    margin-bottom: 1.5rem;
+}
+
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+
+.question-group::after {
+    content: "";
+    display: block;
+    height: .1875rem;
+    width: 50vw;
+    margin: 1.5rem auto;
+    background-color: #d2ba87;
+}
+
+
+footer {
+  background: url('https://orange.codeberryschool.com/content/images/project-assets/simple-footer.png') repeat center;
+  background-color: #606060;
+  display: table;
+  width: 100vw;
+  height: 8rem;
+  text-align: center;
+  font-family: 'Arial', sans-serif;
+  font-size: .875rem;
+}
+
+.wrapper {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+footer small {
+  color: #ccc;
+  letter-spacing: .025rem;
+  margin-bottom: 1.5rem;
+  display: block;
+}
+
+.footer-nav a {
+  text-decoration: none;
+  color: #c74f78;
+  margin: 0 .5rem;
+  display: inline-block;
+}
+
+.footer-nav a:hover {
+  color: #f26896;
+  transition: color .15s ease-in-out;
+}
+
+strong {
+  font-weight: 700;
+}
+
